@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3472b6159a9bb54dbe7ca6e35e612c2, type: 3}
+  m_Name: BundlePackSetting_Android
+  m_EditorClassIdentifier: 
+  m_AutoDeploy: 1
+  m_OutputPath: ResourceBundles
+  m_DeployPath: 
+  m_Options: 304
+  m_ExcludeDirectory: []
+  m_ExcludeExtension:
+  - .meta
+  - .gitkeep
+  - .unity
+  - .DS_Store
+  m_PackToAssetBundle:
+  - path: Assets/Art
+    type: 0
+    compressionType: 2
+    bundleEncryption: 0
+  - path: Assets/Map
+    type: 0
+    compressionType: 2
+    bundleEncryption: 0
+  - path: Assets/Prefabs
+    type: 0
+    compressionType: 2
+    bundleEncryption: 0
+  m_PackToSoundBank: []
